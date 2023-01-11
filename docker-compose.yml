@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  docu:
+    build: 
+      context: .
+      dockerfile: ./Dockerfile
+    image: docui
+    container_name: docuc
+    network_mode: host
+    restart: always
+    # ports:
+    #   - 4000:4000
