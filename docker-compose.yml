@@ -6,7 +6,7 @@ services:
       dockerfile: ./Dockerfile
     image: docui
     container_name: docuc
-    network_mode: host
+    # network_mode: host
     restart: always
-    # ports:
-    #   - 4000:4000
+    ports:
+      - 4000:4000
