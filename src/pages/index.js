@@ -18,7 +18,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            My GitHub Repo 
+            Test Site URL 
           </Link>
         </div>
       </div>
